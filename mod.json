@@ -1,9 +1,9 @@
 {
-	"name": "Rise_of_the_east",
+	"name": "RiseOfTheEast",
 	"label": "0 A.D. Rise of the east",
 	"version": "1.0.0",
 	"url": "https://github.com/0ADMods/rise_of_the_east",
 	"description": "Adds east asian civilizations to 0 A.D.",
-	"dependencies": ["0ad>=0.0.24", "Xiongnu","Han"],
+	"dependencies": ["0ad=0.0.24", "Xiongnu","HanChina"],
 	"type": "civ"
 }

@@ -33,12 +33,13 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="645.58" y="482.996" z="-336.32"/>
+		<Position x="453.603" y="91.4058" z="42.5994"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
   "Description": "A barren desert basin surrounded by mountainous valleys, the Tarim Basin is also called \"The Western Regions\" by the Han Chinese, and represents the furthest extent of their power.\n\nThe basin itself is bereft of life  and offers little in the way of defensibility. The rugged mountain valleys harbor the only life, in the form of hearty shrub and tree species and some goats.",
   "GameType": "conquest_civic_centers",
@@ -48,14 +49,24 @@
   "LockTeams": false,
   "Name": "Tarim Basin (4)",
   "PlayerData": [
-    null,
-    {},
-    {},
-    {},
-    {}
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    }
   ],
   "Preview": "tarim_basin_4.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
